@@ -1,13 +1,18 @@
-const http = require("http");
+// const http = require("http");
 
 // creating server
-const server = http.createServer((req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello, Node.js Server!');
-});
+// const server = http.createServer((req, res) {
+//     res.writeHead(200, {'Content-Type': 'text/plain'});
+//     res.end('Hello, Node.js Server!');
+// });
 
 
 // server listen 
-server.listen(3000, () => {
-    console.log('Server is running..')
-});
+// server.listen(3000, () => {
+//     console.log('Server is running..')
+// });
+
+
+const players = ["Shakib", "Tamim", "Mashrafee", "Musfiq", "Mahmudullah"];
+
+module.exports = players;
