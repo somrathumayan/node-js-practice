@@ -12,3 +12,10 @@ console.log(man);
 
 // Players called in server.js file and export it. 
 // here, import and console.log...
+
+const path = require("path");
+
+const myPath = "C:/Windows/System32/cmd.exe";
+
+console.log(path.basename(myPath))
+// basename() - to know the base file 
